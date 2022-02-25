@@ -1,0 +1,81 @@
+body {
+  font-size: 14px;
+  line-height: 1.5;
+}
+.App {
+  width: 80%;
+  margin: 0 auto;
+}
+li { list-style: none; }
+.header {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #ccc;
+  height: 80px;
+  align-items: center;
+}
+.header ul {
+  display: flex;
+}
+.header ul li {
+  padding: 0 30px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.header ul li:hover {
+  transform: scale(1.2);
+}
+.contents {
+  padding: 40px 0;
+}
+.contents table td, .contents table th{
+  text-align: center;
+}
+.contents table th {
+  background-color: coral;
+  color: #fff;
+}
+.footer h1 {
+  padding-top: 300px;
+  font-weight: normal;
+  font-size: 22px;
+}
+.contents table.createTable td {
+  text-align: left;
+}
+.contents table.createTable td:nth-child(1) {
+  width: 30%;
+}
+table.createTable input[type='text'] {
+  width: 80%;
+  padding: 8px;
+  border: 1px solid #ccc;
+}
+a { text-decoration: none; color: inherit; }
+button {
+  background-color: coral;
+  color: #fff;
+  margin-right: 8px;
+  border: none;
+  outline: none;
+  padding: 10px 24px;
+  border-radius: 6px;
+}
+.contents table td:nth-child(1) {
+  width: 10%;
+}
+.contents table td:nth-child(2) {
+  width: 10%;
+}
+.contents table td:nth-child(3) {
+  width: 10%;
+}
+.contents table td:nth-child(4) {
+  width: 30%;
+}
+.contents table td:nth-child(5) {
+  width: 20%;
+}
+.contents table td:nth-child(6) {
+  width: 30%;
+}
